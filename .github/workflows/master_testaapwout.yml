@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
-
-name: Build and deploy Node.js app to Azure Web App - testaApwout
+name: Azure Login
+uses: Azure/login@v1
 
 on:
   push:
@@ -15,8 +15,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Azure Login
-        uses: Azure/login@v1
+    
 
       - uses: actions/checkout@v2
 
