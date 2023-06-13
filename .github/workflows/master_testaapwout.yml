@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'testaApwout'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_18B51A29E8454264ADF40601212B33D5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5E8565B411DB4C529D24C148D56AF0B3 }}
           package: .
